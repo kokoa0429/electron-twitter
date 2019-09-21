@@ -9,7 +9,7 @@ app.on('window-all-closed', function () {
 });
 
 app.on('ready', function () {
-  mainWindow = new BrowserWindow({ width: 380, height: 1000 ,alwaysOnTop: true});
+  mainWindow = new BrowserWindow({ width: 380, height: 1000, alwaysOnTop: true });
   mainWindow.loadURL('https://twitter.com');
   mainWindow.setTitle("twitter");
   mainWindow.setPosition(-380, 20);
@@ -27,7 +27,7 @@ app.on('ready', function () {
       b = 1;
     }
     else {
-      if(b == 1 && mousePos.x < 500) {
+      if (b == 1 && mousePos.x < 500) {
 
       }
       else {
